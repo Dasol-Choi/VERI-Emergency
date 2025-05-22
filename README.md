@@ -5,6 +5,8 @@
 
 This repository provides evaluation code and dataset for analyzing how Vision-Language Models (VLMs) respond to visually ambiguous emergency scenarios. Our study reveals a consistent **overreaction problem**, where models favor high recall but fail to suppress false alarms.
 
+> ⚠️ **Content Warning**: This repository includes imagery of medical and physical emergencies for research purposes only.
+
 ---
 
 ## 🔥 Key Findings
@@ -98,7 +100,7 @@ Combines Q1 + Q2 for full-spectrum evaluation, with metrics like F1-score, false
 |---------------|------------------------|
 | Qwen2.5-VL    | 3B, 7B, 32B, 72B       |
 | LLaVA-Next    | 7B, 13B                |
-| InternVL3     | 8B, 14B                |
+| InternVL3     | 2B, 8B, 14B            |
 
 To extend, implement `classify_safety()` and `generate_response()` in `src/models/`.
 
@@ -146,13 +148,9 @@ If you use this dataset or code, please cite:
 
 ---
 ## 👥 Authors
-- [Dasol Choi](https://github.com/Dasol-Choi)  
-- [Seunghyun Lee](https://github.com/lutris1123)  
-- [Youngsook Song](https://github.com/songys)
+- [Dasol Choi](https://github.com/Dasol-Choi), [Seunghyun Lee](https://github.com/lutris1123), [Youngsook Song](https://github.com/songys)
 ---
 
 ## 📧 Contact
 
 - **Dasol Choi**: [dasolchoi@yonsei.ac.kr](mailto:dasolchoi@yonsei.ac.kr)  
-
-> ⚠️ **Content Warning**: This repository includes imagery of medical and physical emergencies for research purposes only.
