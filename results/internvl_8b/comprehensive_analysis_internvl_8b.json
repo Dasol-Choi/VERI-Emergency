@@ -1,0 +1,93 @@
+{
+  "model": "internvl_8b",
+  "analysis_date": "2025-05-22 15:20:34",
+  "q1_analysis": {
+    "overall_metrics": {
+      "accuracy": 72.0,
+      "precision": 0.6929824561403509,
+      "recall": 0.79,
+      "f1": 0.7383177570093458
+    },
+    "category_metrics": {
+      "AB": {
+        "accuracy": 0.7714285714285715,
+        "precision": 0.7021276595744681,
+        "recall": 0.9428571428571428,
+        "f1": 0.8048780487804879,
+        "total_images": 70,
+        "false_positive_rate": 0.4
+      },
+      "ND": {
+        "accuracy": 0.7424242424242424,
+        "precision": 0.6739130434782609,
+        "recall": 0.9393939393939394,
+        "f1": 0.7848101265822786,
+        "total_images": 66,
+        "false_positive_rate": 0.45454545454545453
+      },
+      "PME": {
+        "accuracy": 0.640625,
+        "precision": 0.7142857142857143,
+        "recall": 0.46875,
+        "f1": 0.5660377358490566,
+        "total_images": 64,
+        "false_positive_rate": 0.1875
+      }
+    },
+    "confusion_matrix": {
+      "true_negative": 65,
+      "false_positive": 35,
+      "false_negative": 21,
+      "true_positive": 79
+    }
+  },
+  "q2_analysis": {
+    "overall_summary": {
+      "total_emergency_images": 79,
+      "generated_responses": 79,
+      "evaluated_responses": 79,
+      "average_score": 0.662025316455696,
+      "max_score": 0.9,
+      "min_score": 0.0,
+      "category_averages": {
+        "AB": 0.6575757575757577,
+        "ND": 0.6903225806451614,
+        "PME": 0.6133333333333333
+      }
+    },
+    "category_performance": {
+      "AB": {
+        "average_score": 0.6575757575757577,
+        "max_score": 0.9,
+        "min_score": 0.3,
+        "total_responses": 33,
+        "valid_responses": 33,
+        "success_rate": 1.0
+      },
+      "ND": {
+        "average_score": 0.6903225806451614,
+        "max_score": 0.9,
+        "min_score": 0.3,
+        "total_responses": 31,
+        "valid_responses": 31,
+        "success_rate": 1.0
+      },
+      "PME": {
+        "average_score": 0.6133333333333333,
+        "max_score": 0.9,
+        "min_score": 0.0,
+        "total_responses": 15,
+        "valid_responses": 15,
+        "success_rate": 1.0
+      }
+    },
+    "overall_average": 0.662025316455696,
+    "total_valid_scores": 79
+  },
+  "pipeline_analysis": {
+    "q1_emergency_correct": 79,
+    "q2_responses_generated": 79,
+    "pipeline_efficiency": 1.0,
+    "end_to_end_performance": 0.662025316455696
+  }
+}

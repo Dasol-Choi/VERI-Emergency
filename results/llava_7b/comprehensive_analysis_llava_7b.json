@@ -1,0 +1,93 @@
+{
+  "model": "llava_7b",
+  "analysis_date": "2025-05-22 14:30:43",
+  "q1_analysis": {
+    "overall_metrics": {
+      "accuracy": 63.0,
+      "precision": 0.5773809523809523,
+      "recall": 0.97,
+      "f1": 0.7238805970149254
+    },
+    "category_metrics": {
+      "AB": {
+        "accuracy": 0.5857142857142857,
+        "precision": 0.55,
+        "recall": 0.9428571428571428,
+        "f1": 0.6947368421052631,
+        "total_images": 70,
+        "false_positive_rate": 0.7714285714285715
+      },
+      "ND": {
+        "accuracy": 0.6666666666666666,
+        "precision": 0.6,
+        "recall": 1.0,
+        "f1": 0.7499999999999999,
+        "total_images": 66,
+        "false_positive_rate": 0.6666666666666666
+      },
+      "PME": {
+        "accuracy": 0.640625,
+        "precision": 0.5849056603773585,
+        "recall": 0.96875,
+        "f1": 0.7294117647058823,
+        "total_images": 64,
+        "false_positive_rate": 0.6875
+      }
+    },
+    "confusion_matrix": {
+      "true_negative": 29,
+      "false_positive": 71,
+      "false_negative": 3,
+      "true_positive": 97
+    }
+  },
+  "q2_analysis": {
+    "overall_summary": {
+      "total_emergency_images": 97,
+      "generated_responses": 97,
+      "evaluated_responses": 97,
+      "average_score": 0.4938144329896907,
+      "max_score": 0.9,
+      "min_score": 0.2,
+      "category_averages": {
+        "AB": 0.5212121212121213,
+        "ND": 0.4818181818181818,
+        "PME": 0.4774193548387097
+      }
+    },
+    "category_performance": {
+      "AB": {
+        "average_score": 0.5212121212121213,
+        "max_score": 0.7,
+        "min_score": 0.3,
+        "total_responses": 33,
+        "valid_responses": 33,
+        "success_rate": 1.0
+      },
+      "ND": {
+        "average_score": 0.4818181818181818,
+        "max_score": 0.7,
+        "min_score": 0.2,
+        "total_responses": 33,
+        "valid_responses": 33,
+        "success_rate": 1.0
+      },
+      "PME": {
+        "average_score": 0.4774193548387097,
+        "max_score": 0.9,
+        "min_score": 0.2,
+        "total_responses": 31,
+        "valid_responses": 31,
+        "success_rate": 1.0
+      }
+    },
+    "overall_average": 0.4938144329896907,
+    "total_valid_scores": 97
+  },
+  "pipeline_analysis": {
+    "q1_emergency_correct": 97,
+    "q2_responses_generated": 97,
+    "pipeline_efficiency": 1.0,
+    "end_to_end_performance": 0.4938144329896907
+  }
+}
