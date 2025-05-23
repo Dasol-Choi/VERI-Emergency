@@ -47,6 +47,9 @@ cd VERI-Emergency
 pip install -r requirements.txt
 ~~~
 
+> ⚠️ **Python 3.9 or higher is required.**  
+> Some models may not run properly on Python 3.8 or lower and can produce compatibility errors.
+
 ### Evaluation Commands
 
 ~~~bash
