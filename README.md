@@ -36,6 +36,28 @@ Each entry contains:
 - Emergency response (if dangerous)
 
 ---
+## 📁 Repository Structure
+
+~~~text
+VERI-Emergency/
+├── figures/
+│   └── examples_image.png
+├── results/
+│   ├── internvl_8b/
+│   ├── llava_7b/
+│   └── qwen_7b/
+├── src/
+│   ├── models/
+│   │   └── __init__.py
+│   ├── q1_evaluation.py
+│   ├── q2_evaluation.py
+│   └── comprehensive_analysis.py
+├── .gitignore
+├── LICENSE
+├── requirements.txt
+└── README.md
+~~~
+---
 
 ## 🚀 Quick Start
 
@@ -104,30 +126,6 @@ Combines Q1 + Q2 for full-spectrum evaluation, with metrics like F1-score, false
 | InternVL3     | 2B, 8B, 14B            |
 
 To extend, implement `classify_safety()` and `generate_response()` in `src/models/`.
-
----
-
-## 📁 Repository Structure
-
-~~~text
-VERI-Emergency/
-├── figures/
-│   └── examples_image.png
-├── results/
-│   ├── internvl_8b/
-│   ├── llava_7b/
-│   └── qwen_7b/
-├── src/
-│   ├── models/
-│   │   └── __init__.py
-│   ├── q1_evaluation.py
-│   ├── q2_evaluation.py
-│   └── comprehensive_analysis.py
-├── .gitignore
-├── LICENSE
-├── requirements.txt
-└── README.md
-~~~
 
 ---
 
