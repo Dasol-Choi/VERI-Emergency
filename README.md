@@ -41,14 +41,12 @@ Each entry contains:
 
 ### Installation
 
+> ✅ **Python>=3.9 required.**  
 ~~~bash
 git clone https://github.com/Dasol-Choi/VERI-Emergency.git
 cd VERI-Emergency
 pip install -r requirements.txt
 ~~~
-
-> ⚠️ **Python 3.9 or higher is required.**  
-> Some models may not run properly on Python 3.8 or lower and can produce compatibility errors.
 
 ### Evaluation Commands
 
